@@ -37,13 +37,13 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
             <img 
-              src="/img/0a948271-afb4-49c0-a831-9ae137fdf3bb.jpg" 
-              alt="ТехноСервис логотип"
-              className="w-12 h-12 object-cover rounded-lg shadow-sm"
+              src="https://cdn.poehali.dev/files/9e6db62e-7405-4b9a-a7b7-cd5802e743e3.png" 
+              alt="Точка логотип"
+              className="h-10 object-contain"
             />
             <div>
-              <h1 className="text-xl font-bold text-foreground">ТехноСервис</h1>
-              <p className="text-sm text-muted-foreground">Компьютерный центр</p>
+              <h1 className="text-xl font-bold text-foreground">Точка</h1>
+              <p className="text-sm text-muted-foreground">Компьютерный сервис</p>
             </div>
           </div>
           <nav className="hidden md:flex space-x-6">
@@ -235,11 +235,11 @@ export default function Index() {
                 <div className="absolute top-4 left-4 bg-white/90 rounded-lg p-2 shadow-sm">
                   <div className="flex items-center space-x-2">
                     <img 
-                      src="/img/0a948271-afb4-49c0-a831-9ae137fdf3bb.jpg" 
-                      alt="ТехноСервис"
-                      className="w-4 h-4 object-cover rounded"
+                      src="https://cdn.poehali.dev/files/9e6db62e-7405-4b9a-a7b7-cd5802e743e3.png" 
+                      alt="Точка"
+                      className="h-4 object-contain"
                     />
-                    <span className="text-sm font-medium">ТехноСервис</span>
+                    <span className="text-sm font-medium">Точка</span>
                   </div>
                 </div>
                 
@@ -328,14 +328,14 @@ export default function Index() {
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <img 
-              src="/img/0a948271-afb4-49c0-a831-9ae137fdf3bb.jpg" 
-              alt="ТехноСервис логотип"
-              className="w-8 h-8 object-cover rounded-lg"
+              src="https://cdn.poehali.dev/files/9e6db62e-7405-4b9a-a7b7-cd5802e743e3.png" 
+              alt="Точка логотип"
+              className="h-6 object-contain"
             />
-            <span className="text-lg font-semibold">ТехноСервис</span>
+            <span className="text-lg font-semibold">Точка</span>
           </div>
           <p className="text-background/80">
-            © 2024 ТехноСервис. Профессиональный ремонт компьютерной техники.
+            © 2024 Точка. Профессиональный ремонт компьютерной техники.
           </p>
         </div>
       </footer>
