@@ -181,7 +181,7 @@ export default function Index() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Адрес</p>
-                  <p className="text-muted-foreground">ул. Примерная, д. 123</p>
+                  <p className="text-muted-foreground">г.Тамбов, Бульвар Энтузиастов 1"Г"</p>
                 </div>
               </div>
               <Button variant="outline" size="sm" className="w-full">
@@ -217,7 +217,7 @@ export default function Index() {
                       <Icon name="MapPin" size={32} className="text-primary" />
                     </div>
                     <h4 className="text-lg font-semibold mb-2 text-foreground">Интерактивная карта</h4>
-                    <p className="text-muted-foreground mb-4">ул. Примерная, д. 123</p>
+                    <p className="text-muted-foreground mb-4">г.Тамбов, Бульвар Энтузиастов 1"Г"</p>
                     <div className="flex gap-2 justify-center">
                       <Button size="sm" className="hover-scale">
                         <Icon name="Navigation" size={16} className="mr-2" />
