@@ -103,7 +103,7 @@ export default function Index() {
             {services.map((service, index) => (
               <Card key={index} className="card-hover border-0 shadow-md">
                 <CardHeader className="text-center pb-4">
-                  <div className="w-16 h-16 gradient-tech rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 gradient-orange rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name={service.icon as any} size={32} className="text-white" />
                   </div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -213,8 +213,8 @@ export default function Index() {
               <div className="relative h-96 bg-gradient-to-br from-primary/20 to-secondary/20">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Icon name="MapPin" size={32} className="text-primary" />
+                    <div className="w-16 h-16 gradient-orange rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Icon name="MapPin" size={32} className="text-white" />
                     </div>
                     <h4 className="text-lg font-semibold mb-2 text-foreground">Интерактивная карта</h4>
                     <p className="text-muted-foreground mb-4">г.Тамбов, Бульвар Энтузиастов 1"Г"</p>
