@@ -36,9 +36,11 @@ export default function Index() {
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 gradient-tech rounded-lg flex items-center justify-center">
-              <Icon name="Zap" size={24} className="text-white" />
-            </div>
+            <img 
+              src="/img/0a948271-afb4-49c0-a831-9ae137fdf3bb.jpg" 
+              alt="ТехноСервис логотип"
+              className="w-12 h-12 object-cover rounded-lg shadow-sm"
+            />
             <div>
               <h1 className="text-xl font-bold text-foreground">ТехноСервис</h1>
               <p className="text-sm text-muted-foreground">Компьютерный центр</p>
@@ -232,7 +234,11 @@ export default function Index() {
                 {/* Mock map elements */}
                 <div className="absolute top-4 left-4 bg-white/90 rounded-lg p-2 shadow-sm">
                   <div className="flex items-center space-x-2">
-                    <Icon name="Zap" size={16} className="text-primary" />
+                    <img 
+                      src="/img/0a948271-afb4-49c0-a831-9ae137fdf3bb.jpg" 
+                      alt="ТехноСервис"
+                      className="w-4 h-4 object-cover rounded"
+                    />
                     <span className="text-sm font-medium">ТехноСервис</span>
                   </div>
                 </div>
@@ -321,9 +327,11 @@ export default function Index() {
       <footer className="bg-foreground text-background py-8 px-4">
         <div className="container mx-auto text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="w-8 h-8 gradient-tech rounded-lg flex items-center justify-center">
-              <Icon name="Zap" size={20} className="text-white" />
-            </div>
+            <img 
+              src="/img/0a948271-afb4-49c0-a831-9ae137fdf3bb.jpg" 
+              alt="ТехноСервис логотип"
+              className="w-8 h-8 object-cover rounded-lg"
+            />
             <span className="text-lg font-semibold">ТехноСервис</span>
           </div>
           <p className="text-background/80">
