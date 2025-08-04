@@ -67,8 +67,8 @@ export default function Index() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="hover-scale">
-              <Icon name="Phone" size={20} className="mr-2" />
-              Вызвать мастера
+              <Icon name="Mail" size={20} className="mr-2" />
+              Написать нам
             </Button>
             <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20 hover-scale">
               <Icon name="MessageCircle" size={20} className="mr-2" />
@@ -136,8 +136,8 @@ export default function Index() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="hover-scale">
-              <Icon name="Phone" size={20} className="mr-2" />
-              +7 (XXX) XXX-XX-XX
+              <Icon name="Mail" size={20} className="mr-2" />
+              info@tochka-tambov.ru
             </Button>
             <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 hover-scale">
               <Icon name="MapPin" size={20} className="mr-2" />
@@ -169,8 +169,8 @@ export default function Index() {
                 </div>
               </div>
               <Button variant="outline" size="sm" className="w-full">
-                <Icon name="Phone" size={16} className="mr-2" />
-                Позвонить
+                <Icon name="Mail" size={16} className="mr-2" />
+                Написать
               </Button>
             </div>
             
